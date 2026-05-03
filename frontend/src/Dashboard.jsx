@@ -44,7 +44,7 @@ function Dashboard() {
       setDescription("");
       loadProjects();
     } catch (err) {
-      alert("Project create nahi hua");
+      alert("Project not created");
     }
   };
 
